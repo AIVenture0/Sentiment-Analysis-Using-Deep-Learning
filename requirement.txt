@@ -24,7 +24,6 @@ pd==0.0.1
 protobuf==3.6.1
 python-dateutil==2.8.0
 pytz==2018.9
-PyYAML==3.13
 scikit-learn==0.20.2
 scipy==1.2.1
 six==1.12.0
