@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block section %}
+{% if prediction > 0.65 %}
+
+	<img  src="{{url_for('static',filename='img/positive.png')}}" class="rounded mx-auto d-block" alt="Cinque Terre" width="350" height="350" align="center">
+	<!-- <h1 style="color: red ">Sentiment for the given text is {{ prediction }} </h1> -->
+
+	<button type="button" class="btn btn-primary btn-block btn-success " value="predict">Sentiment for the given text is positive with a figure of  <b> :  {{prediction}}</b> </button>
+{% else %}
+	<!-- <h1 style="color: red ">Sentiment for the given text is {{ prediction }} </h1> -->
+	<img  src="{{url_for('static',filename='img/negative.png')}}" class="rounded mx-auto d-block" alt="Cinque Terre" width="250" height="250" align="center">
+
+	<button type="button" class="btn btn-primary btn-block btn-danger " value="predict">Sentiment for the given text is Negative with a figure of <b> :  {{prediction}}</b> </button>
+{% endif %}
+
+{% endblock %}
+
+
+

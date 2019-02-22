@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sentiment Analysis</title>
+	<link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+	<link rel="stylesheet" href="{{url_for('static',filename='css/fixed.css')}}">
+</head>
+
+<body>
+<!--Start Home Section -->
+<div id='home'>
+<!-- Navigation  -->
+<!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">   NLP
+		<!-- <img src="img/nuno.png">		 -->
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target='#navbarResponsive'>
+		<span class="navbar-toggler-icon"></span>	
+	</button>     
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class ="nav-link active navbar-brand" href="#home">Sentiment Analysis for movie review</a>
+			</li>
+			<li class="nav-item">
+				<a class ="nav-link active navbar-brand" href="#home">Word Embedding</a>
+			</li>
+		</ul>
+	</div>
+	
+</nav>
+
+<!-- End Navigation -->
+
+<!-- Start landing page Section -->
+<div class="landing">
+	<div class="home-wrap">
+
+		<div class="home-inner" style="background-image: url({{url_for('static',filename='img/computers.png')}});">
+		</div>
+	</div>
+</div>
+	
+	
+<div class="caption text-center">
+	<h1>Sentiment Analysis using NLP</h1>
+	<h3> Is This Review is Positive (+) or Negative(-) ? </h3>
+	<a class='btn btn-outline-light btn-lg' href="#resourses">Let's  get  Started</a>
+</div>
+
+
+<!-- End landing page Section -->
+
+</div>
+
+<!-- End Home Section -->
+
+<!--Start course Section -->
+<div id=course' class="offset">
+<div class="col-12 narrow text-center">
+	<h1>Sentiment analysis on movie review</h1>
+	<p class="lead"> MOVIE: Is This Review Positive (+) or Negative(-) ? </p>
+	<a class="btn btn-secondary btn-md" href="#course">Read More About NLP</a>
+
+</div>
+</div>
+
+<!-- End Features Section -->
+
+<!--Start resourses Section -->
+<!-- {% block content %} -->
+<div id='resourses' class="offset">
+<div class="fixed-background">
+<div class="row dark text-center">
+
+<!-- 	<div class="col-2 ">
+	<h3 class="heading" style="color: red"><b>Put Your Review Here</b></h3>
+	<div class="heading-underline"></div>
+		<img  src="{{url_for('static',filename='img/neg.png')}}" class="img-responsive" alt="Cinque Terre" width="50" height="50">
+	</div>
+
+	<div class="offset-8 col-2 ">
+		<img src="{{url_for('static',filename='img/pos.png')}}" class="img-responsive" alt="Cinque Terre" width="50" height="50">
+	</div> -->
+
+
+	{% block section %}
+
+	<div class="offset-3 col-md-6 offset-3">
+	  <!-- <form action="/action_page.php"> -->
+	  <!-- <form>	 -->
+
+
+	  <form id ='form' action="{{ url_for('predict')}}" method="POST">
+	    <div class="form-group">
+
+
+	    	<!-- <h3 style="color: red">Put your Review Here</h3> -->
+	    	<h2 style="color: red"><i><b>Put your Review Here</b></i></h2>
+
+	      <textarea class="form-control transparent-input rounded-0 border border-success" rows="11" id="comment" name="text"></textarea>
+	    </div>
+	    <button type="submit" class="btn btn-lg btn-success" value="predict">Predict</button>
+	  </form>
+
+	</div>
+	{% endblock %}
+		
+</div>
+
+
+	<div class="fixed-wrap">
+		<div class="fixed" style="background-image: url({{url_for('static',filename='img/whi.jpg')}});">
+			
+		</div>
+		
+	</div>
+</div>
+
+	
+</div>
+
+<!-- {% endblock %} -->
+<!--- Script Source Files -->
+<script src="{{url_for('static',filename='js/jquery-3.3.1.min.js')}}"></script>
+<script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
