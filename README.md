@@ -32,9 +32,11 @@ To run locally, it is assumed that you have python installed on your system
 ### Web-app 
 Web-app creted by using flask, Html, Css ,JavaScript, Bootstrap look like - Once you enter text in the given input box and hit predict button , It predict weather the given text is ham or spam.
 - Input your text 
-<!-- <img src="../master/Images/ham vs spam 1.png" alt="Img1"/> -->
+<img src="../master/static/img/webapp.png" alt="Img1"/>
+
 ## Result
 The output of this model is a flask web-app which predict the  " Sentiment ".
+<img src="../master/static/img/sentiment.png" alt="Img1"/>
 
 ## Author
 <b>Vikram singh</b>
