@@ -8,6 +8,7 @@ Flask-Moment==0.6.0
 Flask-WTF==0.14.2
 gast==0.2.2
 grpcio==1.18.0
+pyyaml>=4.2b1
 h5py==2.9.0
 itsdangerous==1.1.0
 Jinja2==2.10
