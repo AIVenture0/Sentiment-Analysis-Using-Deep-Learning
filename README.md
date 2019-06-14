@@ -1,4 +1,4 @@
-# Seniment-Analysis
+# Sentiment-Analysis
 #### - Perform basic sentiment analysis Using Deep Learning
 ![](https://formtitanhelpdeskimage.s3.amazonaws.com/70c78f9df2fd5c130e7021644f78f4c5.jpg)
 
