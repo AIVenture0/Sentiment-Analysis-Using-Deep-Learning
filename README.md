@@ -4,7 +4,7 @@
 
 
 # Overview
-This is a web-app made with flask using Deep Learning and nltk to analyze the sentiment attatched with text.
+This is a web-app made with flask using Deep Learning and nltk to analyze the sentiment attached with text.
 
 # Getting Started
 
