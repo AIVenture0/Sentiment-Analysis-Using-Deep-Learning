@@ -6,6 +6,12 @@
 ![](https://formtitanhelpdeskimage.s3.amazonaws.com/70c78f9df2fd5c130e7021644f78f4c5.jpg)
 
 
+
+<p align="center">
+  <img src="https://qph.fs.quoracdn.net/main-qimg-a90ee0cbcde557910102a1975dbd3c9c" width="550" title="hover text">
+</p>
+
+
 # Overview
 This is a __Web-App__ made with __Flask__ using __Deep Learning__ and __nltk__ to analyze the ```sentiment``` attached with text.
 
