@@ -4,28 +4,28 @@
 
 
 # Overview
-This is a web-app made with flask using Deep Learning and nltk to analyze the sentiment attached with text.
+This is a __Web-App__ made with __Flask__ using __Deep Learning__ and __nltk__ to analyze the ```sentiment``` attached with text.
 
 # Getting Started
 
 ## Dependencies 
-* Deep Leanring 
-* Numpy 
-* Pandas
-* scikit learn
-* Flask 
-* Html
-* Css
-* JavaScript
-* Bootstrap
+* ```Deep Leanring``` 
+* ```Numpy``` 
+* ```Pandas```
+* ```scikit learn```
+* ```Flask``` 
+* ```Html```
+* ```Css```
+* ```JavaScript```
+* ```Bootstrap```
 
 ### Prerequisites
 To run locally, it is assumed that you have python installed on your system
 ### Development Guide
-- Create a virtual environment. virtualenv venv
+- Create a virtual environment. ```virtualenv venv```
   - Activate virtual environment via \venv\scripts\activate
-- Install the requirements. pip install -r requirements.txt
-- Get ready with all files like html css javascript 
+- Install the requirements. pip install -r ```requirements.txt```
+- Get ready with all files like __html css javascript__ 
 
 - Run the server. python manage.py runserver
 
