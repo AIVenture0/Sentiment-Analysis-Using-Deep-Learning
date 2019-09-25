@@ -1,6 +1,6 @@
 # Sentiment-Analysis
 
-```Sentiment Analysis``` is the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is ```positive```, ```negative```, or ```neutral```. 
+```Sentiment Analysis``` is the process of __computationally identifying__ and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is ```positive```, ```negative```, or ```neutral```. 
 
 #### Perform basic sentiment analysis Using Deep Learning
 ![](https://formtitanhelpdeskimage.s3.amazonaws.com/70c78f9df2fd5c130e7021644f78f4c5.jpg)
