@@ -29,7 +29,7 @@ This is a __Web-App__ made with __Flask__ using __Deep Learning__ and __nltk__ t
 * ```Bootstrap```
 
 ### Prerequisites
-To run locally, it is assumed that you have python installed on your system
+To run ```locally```, it is assumed that you have python installed on your system
 ### Development Guide
 - Create a virtual environment. ```virtualenv venv```
   - Activate virtual environment via \venv\scripts\activate
@@ -44,7 +44,7 @@ Web-app creted by using flask, Html, Css ,JavaScript, Bootstrap look like - Once
 <img src="../master/static/img/webapp.png" alt="Img1"/>
 
 ## Result
-The output of this model is a flask web-app which predict the  " Sentiment ".
+The output of this model is a __flask web-app__ which predict the  ```Sentiment```.
 <img src="../master/static/img/sentiment.png" alt="Img1"/>
 
 
