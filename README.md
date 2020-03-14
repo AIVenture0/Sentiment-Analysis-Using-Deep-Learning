@@ -33,7 +33,7 @@ To run ```locally```, it is assumed that you have python installed on your syste
 ### Development Guide
 - Create a virtual environment. ```virtualenv venv```
   - Activate virtual environment via \venv\scripts\activate
-- Install the requirements. pip install -r ```requirements.txt```
+- Install the requirements. ```pip install -r requirement.txt```
 - Get ready with all files like __html css javascript__ 
 
 - Run the server. python manage.py runserver
